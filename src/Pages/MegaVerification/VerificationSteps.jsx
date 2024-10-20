@@ -40,9 +40,8 @@ export default function VerificationSteps() {
       <>
         <Helmet>
             <link rel="icon" type="image/png" sizes="16x16" href="/mega-verification/v2/images/favicon.png"/>
-              <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-              <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js"></script>
-            {/* <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery-ui.min.js"></script> */}
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+            <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery-ui.min.js"></script>
             <link rel="stylesheet" href="/mega-verification/v2/css/p2/jquery-ui.min.css" />
             <script src="/mega-verification/v2/js/p2/bootstrap.bundle.js"></script>
             <link rel="stylesheet" href="/mega-verification/v2/css/p2/bootstrap-icons.css"/>
