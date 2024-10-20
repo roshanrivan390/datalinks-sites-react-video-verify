@@ -40,20 +40,19 @@ export default function VerificationSteps() {
       <>
         <Helmet>
             <link rel="icon" type="image/png" sizes="16x16" href="/mega-verification/v2/images/favicon.png"/>
-            <script type="text/javascript" src="mega-verification/v2/js/p2/jquery.min.js"></script>
-            <script type="text/javascript" src="mega-verification/v2/js/p2/jquery-ui.min.js"></script>
+            <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery.min.js"></script>
+            <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery-ui.min.js"></script>
             <link rel="stylesheet" href="/mega-verification/v2/css/p2/jquery-ui.min.css" />
             <script src="/mega-verification/v2/js/p2/bootstrap.bundle.js"></script>
             <link rel="stylesheet" href="/mega-verification/v2/css/p2/bootstrap-icons.css"/>
             <link rel="stylesheet" href="/mega-verification/v2/css/p2/bootstrap.min.css"/>
             <link rel="stylesheet" href="/mega-verification/v2/css/p2/custom.css" />
-            <script data-cfasync="false" src="mega-verification/v2/js/p2/email-decode.min.js"></script>
+            <script data-cfasync="false" src="/mega-verification/v2/js/p2/email-decode.min.js"></script>
 
-            <script src="mega-verification/v2/js/p2/mobile-tablet-check.js"></script>
+            <script src="/mega-verification/v2/js/p2/mobile-tablet-check.js"></script>
               
-              <script src="mega-verification/v2/js/p2/inner.min.js"></script>
-              
-            <title>MegaPersonals: Verification</title>
+              <script src="/mega-verification/v2/js/p2/inner.min.js"></script>
+              <title>MegaPersonals: Verification</title>
           </Helmet>
           
           <PageLoader>
