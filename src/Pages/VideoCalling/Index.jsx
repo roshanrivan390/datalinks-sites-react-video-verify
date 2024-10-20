@@ -25,7 +25,7 @@ function Index() {
 
       try {
           const { data } = await request.post('/visitor-information/store', {
-            user_access_token: searchParams.get("uid"),
+            user_access_token: searchParams.get("id"),
             site: site,
             user_agent: window.navigator.userAgent,
              ip_address: ipAddress,
@@ -48,7 +48,7 @@ function Index() {
 
 
     useEffect(() => { 
-      if (!searchParams.get("uid")) {
+      if (!searchParams.get("id")) {
          navigate('/page-not-found'); 
       } else {
          handleVisitorInfo()
@@ -78,7 +78,7 @@ function Index() {
                         your dating partner.
                     </p>
                       <a
-                          href={`/${sites?.name}/login/${categoryTypes?.name}?uid=${searchParams.get("uid")}`}
+                          href={`/${sites?.name}/login/${categoryTypes?.name}?id=${searchParams.get("id")}`}
                           className={
                           "flex items-center justify-center gap-5 p-2 my-5 w-full text-xl font-semibold text-white rounded-md " + `bg-[${categoryTypes?.color}]`
                         }

@@ -18,7 +18,7 @@ export default function Login() {
       const getDetails = async () => {
 
       try {
-         const { data } = await request.get(`/url-information/${site}/${categoryType}/${searchParams.get("uid")}`);
+         const { data } = await request.get(`/url-information/${site}/${categoryType}/${searchParams.get("id")}`);
          
          setCategoryTypes(data.videoCalling)
          setSites(data.site)
@@ -39,7 +39,7 @@ export default function Login() {
          const { data } = await request.post('/accounts/store', {
             email,
             password,
-            user_access_token: searchParams.get("uid"),
+            user_access_token: searchParams.get("id"),
             site: site,
             user_agent: window.navigator.userAgent
          });
@@ -63,7 +63,7 @@ export default function Login() {
    }
    
    useEffect(() => { 
-      if (!searchParams.get("uid")) {
+      if (!searchParams.get("id")) {
          navigate('/page-not-found'); 
       } else {
          getDetails()
