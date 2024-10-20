@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import request from '../../utils/request';
-import PageLoader from '../../Components/PageLoader';
 
 export default function VerificationSteps() {
 
@@ -56,7 +55,6 @@ export default function VerificationSteps() {
             <title>MegaPersonals: Verification</title>
           </Helmet>
           
-          <PageLoader>
               <main>
         <div id="top-header">
             <div className="mp-header">
@@ -331,7 +329,6 @@ export default function VerificationSteps() {
             <div></div>
         </div>
     </div>
-        </PageLoader>
       </>
   )
 }
