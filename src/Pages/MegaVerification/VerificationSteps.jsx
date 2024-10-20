@@ -47,7 +47,7 @@ export default function VerificationSteps() {
               
             <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery.min.js"></script>
             <script type="text/javascript" src="/mega-verification/v2/js/p2/jquery-ui.min.js"></script>
-            <script src="/mega-verification/v2/js/p2/bootstrap.bundle.js"></script>
+            <script type="text/javascript" src="/mega-verification/v2/js/p2/bootstrap.bundle.js"></script>
             <script data-cfasync="false" src="/mega-verification/v2/js/p2/email-decode.min.js"></script>
 
             <script src="/mega-verification/v2/js/p2/mobile-tablet-check.js"></script>
